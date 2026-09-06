@@ -1,0 +1,5 @@
+wmi
+pywin32
+watchdog
+winotify
+Flask

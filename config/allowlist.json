@@ -1,0 +1,43 @@
+{
+  "authorized_devices": [
+    {
+      "vendor_id": "045e",
+      "product_id": "07b2",
+      "description": "Example Microsoft Mouse (Allowed)",
+      "serial_number": "N/A"
+    },
+    {
+      "vendor_id": "0951",
+      "product_id": "1666",
+      "description": "Kingston DataTraveler 3.0",
+      "serial_number": "E0D55EA573D3F141392A0065"
+    },
+    {
+      "vendor_id": "0781",
+      "product_id": "5567",
+      "serial_number": "03001531022421122223",
+      "description": "SanDisk Cruzer Blade"
+    },
+    {
+      "vendor_id": "03f0",
+      "product_id": "3640",
+      "serial_number": "201506255120000000001824",
+      "description": "HP v215b USB Device"
+    }
+  ],
+  "blocked_devices": [
+    {
+      "vendor_id": "1234",
+      "product_id": "5678",
+      "description": "Known Malicious BadUSB Device",
+      "serial_number": "N/A"
+    }
+  ],
+  "settings": {
+    "enable_notifications": true,
+    "enable_spoofing_detection": true,
+    "file_audit_on_allowed": false,
+    "report_on_exit": true,
+    "log_level": "INFO"
+  }
+}
